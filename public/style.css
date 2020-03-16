@@ -4,6 +4,7 @@
 *{
 /*Obriga a caixa manter o tamanho do width de 100%*/
     box-sizing: border-box;
+    
 }
 html, body {
     margin: 0;
@@ -22,7 +23,13 @@ background-color: #f9f9f9;
 h1, h2{
     color: #000000cc;
 }
-
+/* Logo */
+body header img {
+    width: 40%;
+    vertical-align: 0px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
 /* Titulos*/
 header h1, main h2 {
     margin-bottom: 70px;
@@ -152,6 +159,7 @@ form button {
 
     .donor p{
         margin-top: 24px;
+        margin-bottom: 64px;
         padding: 16px;;
     }
     /*FOOTER*/
